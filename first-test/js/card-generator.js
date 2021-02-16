@@ -6,7 +6,7 @@ function generarCard(title, subtitle, imgUrl) {
         <div class="card product">
             <a href="#">
                 <div class="card-image">
-                    <figure class="image">
+                    <figure class="image image-figure">
                         <img src="${imgUrl}"
                             alt="off">
                     </figure>
@@ -30,5 +30,3 @@ function generarCard(title, subtitle, imgUrl) {
 cardsMainProducts.innerHTML += generarCard("OFF!", "$1500", "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph");
 cardsMainProducts.innerHTML += generarCard("Pingu (Bateria incluida)", "$500", "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg");
 cardsMainProducts.innerHTML += generarCard("Pinguino", "$75500", "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg");
-
-

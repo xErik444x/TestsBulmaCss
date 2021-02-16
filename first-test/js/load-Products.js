@@ -2,7 +2,12 @@ window.onload = () => {
     setTimeout(() => {
         let pageloader = document.querySelector(".pageloader");
         pageloader.classList.remove("is-active");
+        setTimeout(() => {
+            let pageloader = document.querySelector(".pageloader");
+            pageloader.remove("is-active");
+        }, 1200);
     }, 800);
+
 }
 
 let products = document.querySelectorAll(".product");
