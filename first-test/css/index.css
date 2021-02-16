@@ -1,0 +1,73 @@
+.has-bg-img {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c664d08-fdc1-439e-8482-6f82fb643f21/d8zdbco-0a76aaab-6e1a-4e5f-92dd-dd2b2625d2b7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi85YzY2NGQwOC1mZGMxLTQzOWUtODQ4Mi02ZjgyZmI2NDNmMjEvZDh6ZGJjby0wYTc2YWFhYi02ZTFhLTRlNWYtOTJkZC1kZDJiMjYyNWQyYjcuanBnIn1dXX0.z_67Zwm5kNCtvbl3cIR7ch4WTWA0O6sbkgYftavfgmw');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.card {
+  height: 400px;
+}
+
+.card-image .image img {
+  height: 200px;
+  width: auto;
+}
+
+
+:root{--animate-duration:1s;--animate-delay:1s;--animate-repeat:1}
+
+.animate__animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both
+}
+
+@keyframes backOutDown {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+
+  20% {
+    -webkit-transform: translateY(0) scale(.7);
+    transform: translateY(0) scale(.7);
+    opacity: .7
+  }
+
+  to {
+    -webkit-transform: translateY(700px) scale(.7);
+    transform: translateY(700px) scale(.7);
+    opacity: .7
+  }
+}
+
+.animate__backOutDown {
+  -webkit-animation-name: backOutDown;
+  animation-name: backOutDown
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0)
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+}
+
+.animate__fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp
+}
