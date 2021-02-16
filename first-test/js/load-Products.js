@@ -16,7 +16,6 @@ products.forEach(p => {
 
 })
 
-console.log(products);
 let welcome = document.querySelector("#welcome");
 
 window.addEventListener("scroll", () => {
