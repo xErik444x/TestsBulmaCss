@@ -12,6 +12,12 @@ html {
 
 .card {
   height: 400px;
+
+}
+
+.card:hover {
+  box-shadow: 2px 2px 20px 5px rgb(83, 83, 83);
+  transition: 0.3s;
 }
 
 .card-image .image img {
