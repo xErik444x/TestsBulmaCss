@@ -3,7 +3,7 @@ let id = 0;
 
 function generarCard(title, subtitle, imgUrl) {
 
-    return (`<div class="column is-4">
+    return (`<div class="column is-4 ">
         <div class="card product">
             <a href="#">
                 <div class="card-image">
