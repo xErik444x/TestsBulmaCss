@@ -9,10 +9,12 @@ html {
   background-attachment: fixed;
 }
 
-
+.product{
+  display: block;
+}
 .card {
   height: 400px;
-
+  display: block;
 }
 
 .card:hover {
@@ -52,7 +54,9 @@ html {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
-    opacity: 1
+    opacity: 1;
+    display: block;
+    
   }
 
   20% {
@@ -64,7 +68,9 @@ html {
   to {
     -webkit-transform: translateY(700px) scale(.7);
     transform: translateY(700px) scale(.7);
-    opacity: .7
+    opacity: .7;
+    display: none;
+    height: 0;
   }
 }
 
@@ -77,13 +83,15 @@ html {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0)
+    transform: translate3d(0, 100%, 0);
+    height:0;
   }
 
   to {
     opacity: 1;
     -webkit-transform: translateZ(0);
-    transform: translateZ(0)
+    transform: translateZ(0);
+    height: 100%;
   }
 }
 

@@ -21,12 +21,12 @@ function ponerAnimaciones() {
         p.classList.add("animate__animated");
         p.classList.add("animate__backOutDown");
     })
-    let welcome = document.querySelector("#welcome");
+    let welcome = document.getElementById("welcome");
 
     window.addEventListener("scroll", () => {
         scrollpos = window.scrollY;
-
-        if (scrollpos >= firstProduct.offsetHeight) {
+        console.log(scrollpos + " " + welcome.offsetHeight)
+        if (scrollpos >= welcome.offsetHeight + 270) {
             products.forEach(p => {
 
 
