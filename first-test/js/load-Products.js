@@ -28,6 +28,8 @@ window.addEventListener("scroll", () => {
     scrollpos = window.scrollY;
 
     products.forEach(p => {
+
+        console.log(p.offsetHeight)
         if (scrollpos >= p.offsetHeight) {
 
             p.classList.add("animate__fadeInUp");

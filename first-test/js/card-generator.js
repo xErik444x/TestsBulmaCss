@@ -1,8 +1,9 @@
 let cardsMainProducts = document.querySelector(".cards-products");
-
+let id = 0;
 
 function generarCard(title, subtitle, imgUrl) {
-    return (`<div class="column">
+
+    return (`<div class="column is-4">
         <div class="card product">
             <a href="#">
                 <div class="card-image">
@@ -26,18 +27,10 @@ function generarCard(title, subtitle, imgUrl) {
     `
     );
 }
-
-cardsMainProducts.innerHTML += generarCard("OFF!", "$1500", "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph");
-cardsMainProducts.innerHTML += generarCard("Pingu (Bateria incluida)", "$500", "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg");
-cardsMainProducts.innerHTML += generarCard("Pinguino", "$75500", "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg");
-
-cardsMainProducts.parentElement.innerHTML += `
-<div class="columns cards-products">
-                    
-
-</div>
-`;
-let cardsMainProducts2 = document.querySelectorAll(".cards-products")[1];
-cardsMainProducts2.innerHTML += generarCard("OFF!", "$1500", "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph");
-cardsMainProducts2.innerHTML += generarCard("Pingu (Bateria incluida)", "$500", "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg");
-cardsMainProducts2.innerHTML += generarCard("Pinguino", "$75500", "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg");
+fetch("products.json").then(response => {
+    return response.json();
+}).then(json => {
+    json.forEach(p => {
+        cardsMainProducts.innerHTML += generarCard(p.name, p.price, p.imgUrl);
+    })
+})
