@@ -15,7 +15,6 @@ function ponerAnimaciones() {
     let products = document.querySelectorAll(".product");
     let firstProduct = products[0];
     let desactivar = false;
-    console.log(firstProduct)
     let animDur = 0.4;
     products.forEach(p => {
         p.style.setProperty('--animate-duration', (animDur += 0.2) + "s");
