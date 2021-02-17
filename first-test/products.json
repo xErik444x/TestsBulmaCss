@@ -1,216 +1,126 @@
-[
-{
-    "id": "0",
-    "imgUrl": "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph",
-    "name": "OFF!",
-    "price": "$1500"
-
-},
-
-
-{
-    "id": "1",
-    "imgUrl": "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg",
-    "name": "Pingu (Bateria incluida)",
-    "price": "$500"
-
-},
-
-
-{
-    "id": "2",
-    "imgUrl": "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg",
-    "name": "Pinguino",
-    "price": "$75500"
-
-},
-
-
-{
-    "id": "3",
-    "imgUrl": "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph",
-    "name": "OFF!",
-    "price": "$1500"
-
-},
-
-
-{
-    "id": "4",
-    "imgUrl": "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg",
-    "name": "Pingu (Bateria incluida)",
-    "price": "$500"
-
-},
-
-
-{
-    "id": "5",
-    "imgUrl": "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg",
-    "name": "Pinguino",
-    "price": "$75500"
-
-},
-
-
-{
-    "id": "6",
-    "imgUrl": "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph",
-    "name": "OFF!",
-    "price": "$1500"
-
-},
-
-
-{
-    "id": "7",
-    "imgUrl": "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg",
-    "name": "Pingu (Bateria incluida)",
-    "price": "$500"
-
-},
-
-
-{
-    "id": "8",
-    "imgUrl": "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg",
-    "name": "Pinguino",
-    "price": "$75500"
-
-},
-
-
-{
-    "id": "9",
-    "imgUrl": "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph",
-    "name": "OFF!",
-    "price": "$1500"
-
-},
-
-
-{
-    "id": "10",
-    "imgUrl": "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg",
-    "name": "Pingu (Bateria incluida)",
-    "price": "$500"
-
-},
-
-
-{
-    "id": "11",
-    "imgUrl": "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg",
-    "name": "Pinguino",
-    "price": "$75500"
-
-},
-
-
-{
-    "id": "12",
-    "imgUrl": "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph",
-    "name": "OFF!",
-    "price": "$1500"
-
-},
-
-
-{
-    "id": "13",
-    "imgUrl": "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg",
-    "name": "Pingu (Bateria incluida)",
-    "price": "$500"
-
-},
-
-
-{
-    "id": "14",
-    "imgUrl": "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg",
-    "name": "Pinguino",
-    "price": "$75500"
-
-},
-
-
-{
-    "id": "15",
-    "imgUrl": "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph",
-    "name": "OFF!",
-    "price": "$1500"
-
-},
-
-
-{
-    "id": "16",
-    "imgUrl": "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg",
-    "name": "Pingu (Bateria incluida)",
-    "price": "$500"
-
-},
-
-
-{
-    "id": "17",
-    "imgUrl": "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg",
-    "name": "Pinguino",
-    "price": "$75500"
-
-},
-
-
-{
-    "id": "18",
-    "imgUrl": "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph",
-    "name": "OFF!",
-    "price": "$1500"
-
-},
-
-
-{
-    "id": "19",
-    "imgUrl": "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg",
-    "name": "Pingu (Bateria incluida)",
-    "price": "$500"
-
-},
-
-
-{
-    "id": "20",
-    "imgUrl": "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg",
-    "name": "Pinguino",
-    "price": "$75500"
-
-},
-
-
-{
-    "id": "21",
-    "imgUrl": "https://off.com.ph/-/media/images/off/ph/products-en/products-landing/landing/off_overtime_product_collections_large_2x.jpg?la=en-ph",
-    "name": "OFF!",
-    "price": "$1500"
-
-},
-
-
-{
-    "id": "22",
-    "imgUrl": "https://cloud10.todocoleccion.online/figuras-goma-pvc/tc/2015/02/08/05/47630802.jpg",
-    "name": "Pingu (Bateria incluida)",
-    "price": "$500"
-
-},
-
-
-{
-    "id": "23",
-    "imgUrl": "https://molaserfriki.com/wp-content/uploads/2020/09/figura-pinguino-dc-comics.jpg",
-    "name": "Pinguino",
-    "price": "$75500"
-
-}
-]
+[ {
+    "id": 0,
+    "name": "Disco Duro Interno Wester Digital Wd5000aavs Green Rigido Pc",
+    "price": "$3.690",
+    "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_964168-MLA43696475151_102020-O.webp"
+}, {
+    "id": 1,
+    "name": "1080p Webcam con micrófono estéreo",
+    "price": "$5356",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41ZPpp3W6QL._AC_SY350_.jpg"
+}, {
+    "id": 2,
+    "name": "Blue Yeti - Micrófono USB",
+    "price": "$12,217",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/214xG-K4wyL._AC_SY350_.jpg"
+}, {
+    "id": 3,
+    "name": "Samsung EVO Select micro SDXC",
+    "price": "$3,100 ",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41UaR%2B6eAHL._AC_SY350_.jpg"
+}, {
+    "id": 4,
+    "name": "Ratón de alto rendimiento para jugar videojuegos, Logitech",
+    "price": "$4,882",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/31BzhyIRe5L._AC_SY350_.jpg"
+}, {
+    "id": 5,
+    "name": "Wild Republic Penguin Felpa",
+    "price": "$891",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41ZQHf8YDzL._AC_SY350_.jpg"
+}, {
+    "id": 6,
+    "name": "Hudson Baby ",
+    "price": "$2,464",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/71P8HO4iH3L._AC_UY350_.jpg"
+}, {
+    "id": 7,
+    "name": "AMD Ryzen 5 3600",
+    "price": "$18,797",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41m%2BkrxXiBL._AC_SY350_.jpg"
+}, {
+    "id": 8,
+    "name": "Samsung 970 EVO",
+    "price": "$13,157",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41ztP8vgdwL._AC_SY350_.jpg"
+}, {
+    "id": 9,
+    "name": "Seagate BarraCuda",
+    "price": "$ 4,980 ",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41X3wiuUlSL._AC_SY780_.jpg"
+}, {
+    "id": 10,
+    "name": "Corsair Vengeance LPX 16GB (2x8GB)",
+    "price": "$7,988 ",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/418sCJkoOYL._AC_SY780_.jpg"
+}, {
+    "id": 11,
+    "name": "Nvidia GeForce GT 1030",
+    "price": "$8,364",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51G3%2BUnZlPL._AC_SY350_.jpg"
+}, {
+    "id": 12,
+    "name": "ZOTAC GeForce GT730",
+    "price": "$8,458 ",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/414RQ0ocoiL._AC_SY350_.jpg"
+}, {
+    "id": 13,
+    "name": "MSI GAMING GeForce GTX 1050",
+    "price": "$32,895",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51wDLUEJwCL._AC_SY350_.jpg"
+}, {
+    "id": 14,
+    "name": " Asus PH-GT1030-O2G GeForce GT 1030 2GB",
+    "price": "$18,798",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51x06dK4fhL._AC_SY350_.jpg"
+}, {
+    "id": 15,
+    "name": " Intel Core i5-10400 ",
+    "price": "$15,037",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41KbFKNaI9L._AC_SY350_.jpg"
+}, {
+    "id": 16,
+    "name": "VENGEANCE RGB PRO 32GB",
+    "price": "$19,550",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/414uA9oHUML._AC_SY350_.jpg"
+}, {
+    "id": 17,
+    "name": "Jujutsu Kaisen, Vol. 8 (8)",
+    "price": "$938.97",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/511ZDIsKPwL._AC_SY350_.jpg"
+}, {
+    "id": 18,
+    "name": "Jujutsu Kaisen, Vol. 1",
+    "price": "$1300",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51CcaF9O78L._AC_SY1000_.jpg"
+}, {
+    "id": 19,
+    "name": "Sudadera para adulto con capucha 3D de Boku No Hero Academia",
+    "price": "$2,630",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51Rq8bjwrAL._AC_UY1000_.jpg"
+}, {
+    "id": 20,
+    "name": "Trumpinginging My Hero Academia",
+    "price": "$3,383",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/61EqVSv79QL._AC_UY350_.jpg"
+}, {
+    "id": 21,
+    "name": "Funko POP! Animation: My Hero Academia",
+    "price": "$1,679",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41I-QWR51PL._AC_SY350_.jpg"
+}, {
+    "id": 22,
+    "name": "My Hero Academia Asui Tsuyu One Color Kanji Camiseta para hombre",
+    "price": "$1,878",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51TbUHggUHL._AC_UY350_.jpg"
+}, {
+    "id": 23,
+    "name": "BUBABOX Boku No Hero Academia Sudadera 3D",
+    "price": "$2,441",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/5105qLZRvlL._AC_UY350_.jpg"
+}, {
+    "id": 24,
+    "name": "My Hero Academia All Might Boot",
+    "price": "$1,314",
+    "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/713jCCap8wL._AC_UY350_.jpg"
+}]
