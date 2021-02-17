@@ -13,6 +13,9 @@ function ponerAnimaciones() {
 
 
     let products = document.querySelectorAll(".product");
+    let firstProduct = products[0];
+    let desactivar = false;
+    console.log(firstProduct)
     let animDur = 0.4;
     products.forEach(p => {
         p.style.setProperty('--animate-duration', (animDur += 0.2) + "s");
@@ -24,17 +27,22 @@ function ponerAnimaciones() {
     window.addEventListener("scroll", () => {
         scrollpos = window.scrollY;
 
-        products.forEach(p => {
+        if (scrollpos >= firstProduct.offsetHeight) {
+            products.forEach(p => {
 
-            console.log(p.offsetHeight)
-            if (scrollpos >= p.offsetHeight) {
 
                 p.classList.add("animate__fadeInUp");
                 p.classList.remove("animate__backOutDown");
-            } else {
+
+            })
+            desactivar = true;
+        } else if (desactivar) {
+            products.forEach(p => {
                 p.classList.add("animate__backOutDown");
                 p.classList.remove("animate__fadeInUp");
-            }
-        })
+            })
+            desactivar = false;
+        }
+
     })
 }
