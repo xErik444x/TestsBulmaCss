@@ -17,7 +17,7 @@ function ponerAnimaciones() {
     let desactivar = false;
     let animDur = 0.4;
     products.forEach(p => {
-        p.style.setProperty('--animate-duration', (animDur += 0.2) + "s");
+        p.style.setProperty('--animate-duration', (animDur += 0.3) + "s");
         p.classList.add("animate__animated");
         p.classList.add("animate__backOutDown");
     })
